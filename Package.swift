@@ -8,7 +8,7 @@ let package = Package(
         .library(
             name: "KSCrashForStatsig",
             targets: [
-                "Empty",
+                "KSCrashForStatsig/Empty",
             ]
         )
     ],
@@ -16,7 +16,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Empty",
+            name: "KSCrashForStatsig/Empty",
             path: "Source/Empty"
         )
     ],
